@@ -15,7 +15,7 @@ margin-bottom: 16px;
   text-align: left;
   font-weight: 700;
   font-size: 24px;
-  color: ${(theme) => theme.COLORS.WHITE};
+  color: ${({theme}) => theme.COLORS.WHITE};
 }
 > footer { 
 width: 100%;
